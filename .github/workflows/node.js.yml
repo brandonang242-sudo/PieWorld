@@ -15,6 +15,9 @@ jobs:
       with:
         node-version: 'latest' # Uses the latest available version
         cache: 'npm' # Optional: Caches dependencies for faster installs
+             
+    - name: Install dependencies
+      run: npm ci
         
     - run: npm install -g react-native-cli
     - run: npm install @supabase/supabase-js

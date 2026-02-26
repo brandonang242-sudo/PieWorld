@@ -13,7 +13,7 @@ jobs:
     - name: Set up the latest Node.js version
       uses: actions/setup-node@v4
       with:
-        node-version: 'latest' # Uses the latest available version
+        node-version: '22.x' # Uses the latest available version
         cache: 'npm' # Optional: Caches dependencies for faster installs
              
     - name: Install dependencies

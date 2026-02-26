@@ -24,3 +24,4 @@ jobs:
     - run: npm install react-native-web react-dom
     - run: npm run web
     - run: npm test
+

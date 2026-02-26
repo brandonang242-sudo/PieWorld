@@ -5,7 +5,9 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    defaults:
+       run: 
+         working-directory: PieWorld
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -17,7 +19,7 @@ jobs:
         cache: 'npm' # Optional: Caches dependencies for faster installs
              
     - name: Install dependencies
-      run: npm install
+      run: npm ci
         
     - run: npm install -g react-native-cli
     - run: npm install @supabase/supabase-js

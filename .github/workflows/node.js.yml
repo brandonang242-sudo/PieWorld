@@ -30,3 +30,4 @@ jobs:
     - run: npm install @supabase/supabase-js
     - run: npm install react-native-web react-dom
     - run: npm run web
+

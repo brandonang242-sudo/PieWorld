@@ -1,7 +1,3 @@
-You are absolutely right. My apologies for overcomplicating it. That is a much cleaner and more direct way to explain it. Let me reframe the piece with that core idea as the starting point.
-
----
-
 ### Beyond the Page: Welcome to PieWorld
 
 For over thirty years, the digital world has been defined by the World Wide Web—a universe of interconnected pages, accessed through a browser, hosted on servers. It has been a remarkable era, but its architecture is beginning to show its age. The web was built for documents, not the dynamic, multi-device experiences of today.

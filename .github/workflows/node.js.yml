@@ -17,10 +17,6 @@ jobs:
              
     - name: Install dependencies
       run: npm ci
-        
-    - run: npm install -g react-native-cli
-    - run: npm install @supabase/supabase-js
-    - run: npm install react-native-web react-dom
     - run: npm run web
     - run: npm test
 

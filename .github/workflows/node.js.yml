@@ -19,6 +19,8 @@ jobs:
       run: npm ci
     - name: Install expo
       run: npm install expo
+    - name: Continue install expo
+      run: npx expo install react-dom react-native-web
     - run: npm run web
     - run: npm test
 

@@ -17,6 +17,8 @@ jobs:
              
     - name: Install dependencies
       run: npm ci
+    - name: Install expo
+      run: npm install expo
     - run: npm run web
     - run: npm test
 
